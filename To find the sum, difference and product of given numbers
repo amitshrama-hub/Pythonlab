@@ -1,0 +1,4 @@
+a, b = eval(input()), eval(input())
+print("Sum= ", a+b)
+print("Difference= ", a-b)
+print("Product= ", a*b)
