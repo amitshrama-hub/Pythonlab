@@ -1,0 +1,12 @@
+n=int(input())
+vi=bin(n).replace("0b", "")
+svi=str(vi)
+svil=len(svi)
+for i in range(0,n+1):
+    mo=(bin(i).replace("0b", ""))
+    moi=str(mo)
+    moil=len(moi)
+    if(moil<svil):
+        for j in range(0,svil-moil):
+            print(" ",end='')
+    print(mo)
