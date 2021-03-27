@@ -1,0 +1,6 @@
+n = int(input())
+for i in range(5, 0, -1):
+    if n >= i:
+        a = n//i
+        print(i, "Steps: ", a)
+        n = n - a * i
