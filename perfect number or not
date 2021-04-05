@@ -1,0 +1,10 @@
+num = int(input())
+i, ch = 1, 0
+while num > i:
+    if num % i == 0:
+        ch += i
+    i += 1
+if num == ch:
+    print("perfect number")
+else:
+    print("not perfect")
