@@ -1,0 +1,11 @@
+num = int(input())
+temp, rev = 0, 0
+dup = num
+while dup > 0:
+    temp = dup % 10
+    rev = rev*10 + temp
+    dup = dup//10
+if num == rev:
+    print("Number is Pelindrome")
+else:
+    print("Number is not Pelindrome")
