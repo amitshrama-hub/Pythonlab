@@ -1,0 +1,12 @@
+def mod(a, b):
+    if a >= b:
+        q = a//b
+        rem = a - q*b
+        print(rem)
+    else:
+        print("num1 should bhe greater then num2")
+
+
+num1 = int(input("Enter num1: "))
+num2 = int(input("Enter num2: "))
+mod(num1, num2)
