@@ -1,0 +1,4 @@
+st = input()
+for i in st:
+     cpy = ( i )
+     print(cpy, end="")
