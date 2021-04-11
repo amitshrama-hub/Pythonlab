@@ -1,0 +1,12 @@
+def div(a, b):
+    divide = 0
+    c = a
+    while c >= b:
+        c = c - b
+        divide = divide + 1
+    print("Division of {} to {} is: " .format(a, b), divide)
+
+
+num1 = int(input("Enter the 1st number: "))
+num2 = int(input("Enter the 2nd number: "))
+div(num1, num2)
