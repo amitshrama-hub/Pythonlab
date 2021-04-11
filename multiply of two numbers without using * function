@@ -1,0 +1,10 @@
+def mul(a, b):
+    multiply = 0
+    for i in range(a):
+        multiply += b
+    print("Product of {} and {} is: " .format(a, b), multiply)
+
+
+num1 = int(input("Enter the 1st number: "))
+num2 = int(input("Enter the 2nd number: "))
+mul(num1, num2)
