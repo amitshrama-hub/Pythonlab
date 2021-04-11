@@ -3,5 +3,5 @@ rev = reversed(st)
 if list(st) == list(rev):
     print("String is Pelindrome")
 else:
-    print("String is not Pelindrome"
+    print("String is not Pelindrome")
     
