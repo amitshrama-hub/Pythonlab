@@ -1,0 +1,8 @@
+def sub(a, b):
+    subtract = a + (~b + 1)
+    print("Subtraction of {} to {} is: " .format(a, b), subtract)
+
+
+num1 = int(input("Enter the 1st number: "))
+num2 = int(input("Enter the 2nd number: "))
+sub(num1, num2)
