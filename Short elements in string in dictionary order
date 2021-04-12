@@ -1,0 +1,9 @@
+def dic(a):
+    new_st = sorted(st)
+    up_st = "".join(new_st)
+    return up_st
+
+
+st = input("Enter the  String: ")
+dic(st)
+print("order of {} is:".format(st), dic(st))
