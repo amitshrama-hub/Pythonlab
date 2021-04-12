@@ -1,0 +1,10 @@
+def freq(a):
+    reg = ''
+    for i in a:
+        if i not in reg:
+            reg += i
+            print(f'{i}: {a.count(i)}')
+
+
+st = input("Enter the  String: ")
+freq(st)
