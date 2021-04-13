@@ -1,0 +1,7 @@
+def swap_case(s):
+    con = s.swapcase()
+    return con
+if __name__ == '__main__':
+    s = input()
+    result = swap_case(s)
+    print(result)
