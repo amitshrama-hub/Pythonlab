@@ -1,0 +1,14 @@
+n=input()
+
+d={}
+
+for i in range(n):
+
+a=raw_input()
+
+s=a.split(' ')
+
+d[s[0]]=[int(s[1]),int(s[2]),int(s[3])]
+sr=raw_input()
+
+print (d[sr][0]+d[sr][1]+d[sr][2])/3
