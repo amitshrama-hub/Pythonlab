@@ -1,0 +1,13 @@
+def code(string, max_width):
+    x = 0
+    for i in string:
+        print(i, end='')
+        x += 1
+        if x == max_width:
+            print(' ')
+            x = 0
+
+
+if __name__ == '__main__':
+    string, max_width = input(), int(input())
+    result = code(string, max_width)
