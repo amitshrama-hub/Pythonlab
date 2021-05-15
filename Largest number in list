@@ -1,0 +1,8 @@
+ls = [int(input()) for _ in range(int(input()))]
+mx = ls[0]
+for i in ls:
+    if mx < i:
+        mx = i
+    else:
+        mx = mx
+print(mx)
