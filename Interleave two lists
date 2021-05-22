@@ -1,0 +1,8 @@
+from itertools import cycle
+ls1, ls2 = [], []
+for _ in range(int(input("Numbers of items in list 1: "))):
+    ls1.append(int(input()))
+for _ in range(int(input("Numbers of items in list 2: "))):
+    ls2.append(int(input()))
+y = [e for x in zip(cycle(ls1), ls2) for e in x]
+print(str(y))
