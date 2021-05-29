@@ -1,0 +1,19 @@
+lst = eval(input()) 
+r, c = map(int, input().split('x' ))
+M = []
+ls= []
+count = 0
+if r * c == len(lst):
+    for i in lst:
+        ls.append(i)
+        count += 1
+        if c == count:
+            M.append(ls)
+            ls= []
+            count = 0
+    for i in M:
+        for j in i:
+            print(j, end=' ')
+        print()
+else:
+    print('None')
