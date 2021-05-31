@@ -1,0 +1,22 @@
+import math
+import os
+import random
+import re
+import sys
+
+
+def miniMaxSum(arr):
+    max, min = 0, 0
+    arr = sorted(arr)
+    for i in arr[1:]:
+        max += i
+    for i in arr[:-1]:
+        min += i
+    print(min, max)
+    
+        
+if __name__ == '__main__':
+
+    arr = list(map(int, input().rstrip().split()))
+
+    miniMaxSum(arr)
