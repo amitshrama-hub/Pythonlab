@@ -1,0 +1,11 @@
+n, m = input().split()
+st = input().split()
+st1 = set(input().split())
+st2 = set(input().split())
+tot = 0
+for i in st:
+    if i in st1:      
+        tot += 1
+    if i in st2:
+        tot -= 1
+print(tot)
