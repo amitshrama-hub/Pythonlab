@@ -1,0 +1,13 @@
+import math
+import os
+import random
+import re
+import sys
+
+def camelcase(s):
+    x = [i for i in s if i >= "A" and i <= "Z"]
+    print(len(x)+1)
+
+if __name__ == '__main__':
+    s = input()
+    result = camelcase(s)
