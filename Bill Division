@@ -1,0 +1,18 @@
+import math
+import os
+import random
+import re
+import sys
+
+def bonAppetit(bill, k, b):
+    x = b - (sum(bill) - bill[k])//2
+    if x == 0:
+        print("Bon Appetit")
+    else:
+        print(x)
+    
+if __name__ == '__main__':
+    n, k = map(int, input().split())
+    bill = list(map(int, input().rstrip().split()))
+    b = int(input().strip())
+    bonAppetit(bill, k, b)
