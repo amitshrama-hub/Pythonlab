@@ -1,0 +1,19 @@
+import sys
+
+def countingValleys(n, steps):
+    altitude = valleys = 0
+    
+    for step in steps:
+        altitude += 1 if step == 'U' else -1
+        if altitude == 0 and step == 'U':
+            valleys += 1
+
+    print(valleys)
+if __name__ == '__main__':
+
+    steps = int(input().strip())
+
+    path = input()
+
+    result = countingValleys(steps, path)
+
