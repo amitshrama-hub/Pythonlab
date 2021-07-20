@@ -1,0 +1,2 @@
+for _ in range(int(input())):
+    print(["NO","YES"][int(input().split()[1])>len([x for x in map(int, input().split())if x<1])])
